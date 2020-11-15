@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "documentation-demo"
+  description: "documentation-demo"
+  annotations:
+    github.com/project-slug: "jizg/documentation-demo"
+    backstage.io/techdocs-ref: github:https://github.com/jizg/documentation-demo
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "jizg"
